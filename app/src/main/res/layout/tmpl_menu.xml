@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="20dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:id="@+id/ivRS"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_weight="1"
+            android:onClick="clickRS"
+            app:srcCompat="@drawable/hospital" />
+
+        <ImageView
+            android:id="@+id/ivPolice"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/police2" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:id="@+id/ivspermarkt"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/market" />
+
+        <ImageView
+            android:id="@+id/ivskolah"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/school" />
+    </TableRow>
+
+</LinearLayout>
